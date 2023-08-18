@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chatbot</title>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Robot Buddy</h1>
+      <div>
+        <div id="chat-display"></div>
+        <input type="text" id="user-input" placeholder="Type your message..." />
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#send-button").click(function () {
+          var userMessage = $("#user-input").val();
+          $("#chat-display").append("<p>You: " + userMessage + "</p>");
+          $("#user-input").val("");
+          $.ajax({
+            url: "/get_response",
+            method: "POST",
+            data: { user_input: userMessage },
+            success: function (data) {
+              $("#chat-display").append(
+                "<p>Bot: " + data.bot_response + "</p>"
+              );
+            },
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
