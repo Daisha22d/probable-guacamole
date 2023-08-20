@@ -17,4 +17,3 @@ root = tk.Tk()
 create_gui(root, conversation, get_completion_from_messages)
 root.mainloop()
 
-
