@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, jsonify
 import openai
 import os
 from dotenv import load_dotenv, find_dotenv
-# from chatbot import get_completion_from_messages
 
 load_dotenv(find_dotenv())
 openai.api_key = os.getenv("OPENAI_API_KEY")
