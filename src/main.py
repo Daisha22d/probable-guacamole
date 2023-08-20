@@ -11,3 +11,4 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 # Initialize conversation history
 conversation = [{"role": "system", "content": "You are a helpful assistant."}]
 
+  
