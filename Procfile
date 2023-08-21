@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn probable-guacamole.chatbot.app:app
