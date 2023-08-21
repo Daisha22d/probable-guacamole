@@ -1,8 +1,7 @@
 import os
 import openai
 from dotenv import load_dotenv, find_dotenv
-from chatbot import get_completion_from_messages
-
+from src.chatbot import get_completion_from_messages  # Updated import path
 
 # Load environment variables from .env file
 load_dotenv(find_dotenv())
