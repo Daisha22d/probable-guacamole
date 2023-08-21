@@ -1,2 +1,1 @@
-web: gunicorn probable-guacamole.app:app
- 
+web: gunicorn src.app:app
