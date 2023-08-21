@@ -29,6 +29,7 @@ Visit the deployed site to interact with Robo Bot: [Robo Bot - Live Demo](https:
 - HTML
 - CSS
 - Heroku
+- OpenAI API
 
 ## About the Developer
 
