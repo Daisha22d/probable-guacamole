@@ -29,10 +29,11 @@ Visit the deployed site to interact with Robo Bot: [Robo Bot - Live Demo](https:
 - HTML
 - CSS
 - Heroku
+- OpenAI API
 
 ## About the Developer
 
-Hi, I'm Daisha, the developer of Robo Bot! I conceptualized, designed, and developed this chatbot using Flask, Python, HTML, and CSS. I'm passionate about creating useful and interactive applications, and Robo Bot is one of my latest creations. This was my first time using Flask! I enjoy learning new technologies and also pick up on them quickly. 
+Hi, I'm Daisha, the developer of Robo Bot! I conceptualized, designed, and developed this chatbot using Flask, Python, HTML, and CSS. I'm passionate about creating useful and interactive applications, and Robo Bot is one of my latest creations. This was my first time using Flask and an AI API! I enjoy learning new technologies and also pick up on them quickly. 
 
 ## Contributions
 
