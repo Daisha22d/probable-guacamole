@@ -1,7 +1,7 @@
 # Robo Bot - Chatbot Assistant
 
-![Robo Bot](../probable-guacamole/src/static/images/Screenshot%202023-08-21%20at%2011.53.15%20AM.jpg)
- 
+![RoboBot](https://github.com/Daisha22d/probable-guacamole/assets/121315417/e5708f39-4021-4924-9424-0bdbc8999990)
+
 
 Robo Bot is an interactive chatbot assistant designed to provide you with helpful information and answers to your questions. Simply type in your query, press "Send," and watch as Robo Bot responds with relevant and informative answers.
 
